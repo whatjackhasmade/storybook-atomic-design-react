@@ -1,10 +1,7 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-import { Button } from "@storybook/react/demo";
 
-export default {
-	title: "Button"
-};
+import Button from "./button";
 
 export const text = () => (
 	<Button onClick={action("clicked")}>Just a Button</Button>
@@ -17,3 +14,8 @@ export const emoji = () => (
 		</span>
 	</Button>
 );
+
+export default {
+	component: Button,
+	title: "Button"
+};
