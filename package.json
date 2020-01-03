@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
