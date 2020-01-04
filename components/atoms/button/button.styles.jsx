@@ -27,7 +27,8 @@ const buttonBackground = props => {
 };
 
 const StyledButton = styled.button`
-	display: inline-block;
+	align-items: center;
+	display: inline-flex;
 	padding: 16px;
 
 	background-color: ${props => buttonBackground(props)};
@@ -41,6 +42,11 @@ const StyledButton = styled.button`
 	text-decoration: none;
 	transition: all 0.15s ease;
 	white-space: nowrap;
+
+	.button__icon {
+		display: inline-block;
+		margin-right: 4px;
+	}
 `;
 
 export const StyledLinkButton = styled(StyledButton).attrs({ as: "a" })``;

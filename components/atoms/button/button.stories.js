@@ -13,6 +13,7 @@ export const secondaryButton = () => (
 export const tertiaryButton = () => (
 	<Button variant="tertiary">Tertiary button</Button>
 );
+export const iconButton = () => <Button icon="user">Icon button</Button>;
 export const functionButton = () => (
 	<Button onClick={buttonClicked}>Function button</Button>
 );
