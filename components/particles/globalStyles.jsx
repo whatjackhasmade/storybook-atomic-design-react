@@ -57,10 +57,6 @@ const GlobalStyle = createGlobalStyle`
 		}
 	}
 
-	button {
-		font-weight: 700;
-	}
-
 	body {
 		overflow-y: scroll;
 
@@ -121,24 +117,6 @@ const GlobalStyle = createGlobalStyle`
 		display: block;
 		width: 100%;
 	}
-
-	button,
-	input[type="submit"] {
-		padding: 16px;
-
-		background-color: ${props => props.theme.primary};
-		border: none;
-		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-		color: ${props => props.theme.white};
-		cursor: pointer;
-		font-weight: 700;
-		line-height: 1;
-		outline: none;
-		text-decoration: none;
-		transition: all 0.15s ease;
-		white-space: nowrap;
-	}
-
 
 	h1, h2, h3, h4, h5, h6 {
 		line-height: 1.25;
