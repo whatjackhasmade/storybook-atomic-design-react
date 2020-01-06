@@ -43,5 +43,5 @@ export const linkedButton = () => (
 export default {
 	component: Button,
 	decorators: [withKnobs],
-	title: "Button"
+	title: "Atoms|Button"
 };
