@@ -11,9 +11,13 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@storybook/addon-docs": "^5.2.8",
 		"@storybook/addon-knobs": "^5.2.8",
 		"normalize.css": "^8.0.1",
 		"prop-types": "^15.7.2",
+		"react": "^16.12.0",
+		"react-is": "^16.12.0",
+		"storybook-addon-designs": "^5.1.1",
 		"styled-components": "^4.4.1"
 	},
 	"devDependencies": {
