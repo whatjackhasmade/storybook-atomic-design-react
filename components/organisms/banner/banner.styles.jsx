@@ -58,8 +58,6 @@ const bannerColour = props => {
 };
 
 export const StyledBanner = styled.section`
-	margin-left: calc(-50vw + 50%);
-	margin-right: calc(-50vw + 50%);
 	padding: 64px 30px;
 
 	background-color: ${props => bannerBackground(props)};

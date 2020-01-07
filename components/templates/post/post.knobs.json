@@ -1,0 +1,141 @@
+{
+	"header": {
+		"default": {
+			"navigation": [
+				{
+					"title": "general",
+					"items": [
+						{
+							"icon": null,
+							"title": "Shop",
+							"url": "#"
+						},
+						{
+							"icon": null,
+							"title": "About Celtic Elements",
+							"url": "#"
+						},
+						{
+							"icon": null,
+							"title": "FAQ",
+							"url": "#"
+						},
+						{
+							"icon": null,
+							"title": "Contact",
+							"url": "#"
+						}
+					]
+				},
+				{
+					"title": "account",
+					"items": [
+						{
+							"icon": null,
+							"title": "Insights",
+							"url": "#"
+						},
+						{
+							"icon": null,
+							"title": "Account",
+							"url": "#"
+						},
+						{
+							"icon": "user",
+							"title": "User",
+							"url": "#"
+						},
+						{
+							"icon": "bag",
+							"title": "Cart",
+							"url": "#"
+						}
+					]
+				}
+			]
+		},
+		"group": "Global",
+		"label": "Header content"
+	},
+	"footer": {
+		"default": {
+			"menus": [
+				{
+					"title": "Menu 1",
+					"items": [{ "title": "Home", "url": "/" }]
+				},
+				{
+					"title": "Menu 2",
+					"items": [{ "title": "About", "url": "/" }]
+				},
+				{
+					"title": "Menu 3",
+					"items": [{ "title": "Contact", "url": "/" }]
+				}
+			]
+		},
+		"label": "Footer Content",
+		"group": "Global"
+	},
+	"related": {
+		"default": {
+			"items": [
+				{
+					"category": {
+						"href": "/category/beauty-routine",
+						"label": "Beauty routine"
+					},
+					"description": "Celtic Elements is a Welsh, Vegan, Wellness brand. We use Welsh natural ingredients from the hillsides & coast of Wales in our Skincare, Body care and Well being ranges.",
+					"image": "https://source.unsplash.com/random/500x300",
+					"slug": "creating-a-positive-day",
+					"title": "Creating a Positive Day"
+				},
+				{
+					"category": {
+						"href": "/category/beauty-routine",
+						"label": "Beauty routine"
+					},
+					"description": "Celtic Elements is a Welsh, Vegan, Wellness brand. We use Welsh natural ingredients from the hillsides & coast of Wales in our Skincare, Body care and Well being ranges.",
+					"image": "https://source.unsplash.com/random/500x300",
+					"slug": "creating-a-positive-day",
+					"title": "Creating a Positive Day"
+				},
+				{
+					"category": {
+						"href": "/category/beauty-routine",
+						"label": "Beauty routine"
+					},
+					"description": "Celtic Elements is a Welsh, Vegan, Wellness brand. We use Welsh natural ingredients from the hillsides & coast of Wales in our Skincare, Body care and Well being ranges.",
+					"image": "https://source.unsplash.com/random/500x300",
+					"slug": "creating-a-positive-day",
+					"title": "Creating a Positive Day"
+				}
+			],
+			"intro": {
+				"cta": {
+					"href": "/posts",
+					"label": "View all posts",
+					"target": null
+				},
+				"subtitle": "Related posts",
+				"text": "Multi Award Winning Spa Manager Clare Pritchard shares the story of Celtic Elements.",
+				"title": "Continue reading our beauty insights"
+			}
+		},
+		"group": "Content",
+		"label": "Related Items"
+	},
+	"banner": {
+		"default": {
+			"content": "Multi Award Winning Spa Manager Clare Pritchard shares the story of Celtic Elements.",
+			"cta": {
+				"title": "Lowered action",
+				"url": "/discount"
+			},
+			"title": "Launch discount",
+			"variant": "primary"
+		},
+		"group": "Content",
+		"label": "Banner info"
+	}
+}

@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-	margin-left: calc(-50vw + 50%);
-	margin-right: calc(-50vw + 50%);
-
 	background-color: ${props => props.theme.grey800};
 	color: ${props => props.theme.white};
 
