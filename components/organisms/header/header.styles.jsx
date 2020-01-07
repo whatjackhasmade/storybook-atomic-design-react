@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../particles/mediaQueries";
 
 const headerColour = props => {
 	// Fallback value if we can't get access to props
@@ -57,7 +58,7 @@ export const StyledHeader = styled.header`
 
 	color: ${props => headerColour(props)};
 
-	@media (min-width: 992px) {
+	@media ${device.md} {
 		display: block;
 		padding: 0;
 		position: ${props => headerPosition(props)};
@@ -67,7 +68,7 @@ export const StyledHeader = styled.header`
 		display: inline-flex;
 		margin-left: auto;
 
-		@media (min-width: 992px) {
+		@media ${device.md} {
 			display: none;
 		}
 	}
@@ -75,7 +76,7 @@ export const StyledHeader = styled.header`
 	img {
 		height: 40px;
 
-		@media (min-width: 992px) {
+		@media ${device.md} {
 			height: 64px;
 			left: 50%;
 			position: absolute;
@@ -117,7 +118,7 @@ export const StyledHeader = styled.header`
 			margin-left: 0;
 			margin-top: 16px;
 
-			@media (min-width: 992px) {
+			@media ${device.md} {
 				margin-left: 32px;
 				margin-top: 0;
 			}
@@ -129,7 +130,7 @@ export const StyledHeader = styled.header`
 
 			border-top: 1px solid ${props => props.theme.grey600};
 
-			@media (min-width: 992px) {
+			@media ${device.md} {
 				flex-direction: unset;
 				padding-top: 0;
 
@@ -140,12 +141,12 @@ export const StyledHeader = styled.header`
 		nav + nav {
 			margin-top: 24px;
 
-			@media (min-width: 992px) {
+			@media ${device.md} {
 				margin-top: 0;
 			}
 		}
 
-		@media (min-width: 992px) {
+		@media ${device.md} {
 			display: flex;
 			left: unset;
 			margin: 0 auto;
@@ -163,7 +164,7 @@ export const StyledHeader = styled.header`
 		.header__navigation {
 			top: 0%;
 
-			@media (min-width: 992px) {
+			@media ${device.md} {
 				left: unset;
 			}
 		}
