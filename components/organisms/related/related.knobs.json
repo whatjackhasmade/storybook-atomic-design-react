@@ -1,0 +1,64 @@
+{
+  "items": {
+    "default": [
+      {
+        "category": {
+          "href": "/category/beauty-routine",
+          "label": "Beauty routine"
+        },
+        "description": "Celtic Elements is a Welsh, Vegan, Wellness brand. We use Welsh natural ingredients from the hillsides & coast of Wales in our Skincare, Body care and Well being ranges.",
+        "image": "https://source.unsplash.com/random/500x300",
+        "slug": "creating-a-positive-day",
+        "title": "Creating a Positive Day"
+      },
+      {
+        "category": {
+          "href": "/category/beauty-routine",
+          "label": "Beauty routine"
+        },
+        "description": "Celtic Elements is a Welsh, Vegan, Wellness brand. We use Welsh natural ingredients from the hillsides & coast of Wales in our Skincare, Body care and Well being ranges.",
+        "image": "https://source.unsplash.com/random/500x300",
+        "slug": "creating-a-positive-day",
+        "title": "Creating a Positive Day"
+      },
+      {
+        "category": {
+          "href": "/category/beauty-routine",
+          "label": "Beauty routine"
+        },
+        "description": "Celtic Elements is a Welsh, Vegan, Wellness brand. We use Welsh natural ingredients from the hillsides & coast of Wales in our Skincare, Body care and Well being ranges.",
+        "image": "https://source.unsplash.com/random/500x300",
+        "slug": "creating-a-positive-day",
+        "title": "Creating a Positive Day"
+      }
+    ],
+    "group": "Content",
+    "label": "Related Items"
+  },
+  "intro": {
+    "cta": {
+      "default": {
+        "href": "/posts",
+        "label": "View all posts",
+        "target": null
+      },
+      "group": "Content",
+      "label": "Header Call to Action"
+    },
+    "subtitle": {
+      "default": "Related posts",
+      "group": "Content",
+      "label": "Subtitle"
+    },
+    "text": {
+      "default": "Multi Award Winning Spa Manager Clare Pritchard shares the story of Celtic Elements.",
+      "group": "Content",
+      "label": "Intro"
+    },
+    "title": {
+      "default": "Continue reading our beauty insights",
+      "group": "Content",
+      "label": "Title"
+    }
+  }
+}

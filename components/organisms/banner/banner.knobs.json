@@ -1,0 +1,31 @@
+{
+	"content": {
+		"default": "Multi Award Winning Spa Manager Clare Pritchard shares the story of Celtic Elements.",
+		"group": "Content",
+		"label": "HTML Content"
+	},
+	"cta": {
+		"default": {
+			"title": "Lowered action",
+			"url": "/discount"
+		},
+		"group": "Content",
+		"label": "Call to Action"
+	},
+	"title": {
+		"default": "Launch discount",
+		"group": "Content",
+		"label": "Title"
+	},
+	"variant": {
+		"default": "primary",
+		"group": "Type",
+		"label": "Variant",
+		"options": {
+			"Primary": "primary",
+			"Secondary": "secondary",
+			"Dark": "dark",
+			"Light": "light"
+		}
+	}
+}
