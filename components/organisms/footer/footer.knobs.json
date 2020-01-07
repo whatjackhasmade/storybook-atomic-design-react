@@ -1,0 +1,20 @@
+{
+	"menus": {
+		"label": "Menus",
+		"default": [
+			{
+				"title": "Menu 1",
+				"items": [{ "title": "Home", "url": "/" }]
+			},
+			{
+				"title": "Menu 2",
+				"items": [{ "title": "About", "url": "/" }]
+			},
+			{
+				"title": "Menu 3",
+				"items": [{ "title": "Contact", "url": "/" }]
+			}
+		],
+		"group": "content"
+	}
+}
