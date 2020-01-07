@@ -41,6 +41,7 @@ Footer.propTypes = {
 	menus: arrayOf({
 		items: arrayOf(
 			shape({
+				icon: string,
 				title: string.isRequired,
 				url: string.isRequired
 			})
