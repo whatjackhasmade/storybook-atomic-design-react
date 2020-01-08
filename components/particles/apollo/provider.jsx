@@ -3,7 +3,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-boost";
 
 const client = new ApolloClient({
-	uri: "http://celticwordpress.co.uk/graphql"
+	uri: "https://celticwordpress.co.uk/graphql"
 });
 
 const ApolloWrapper = ({ children }) => (
